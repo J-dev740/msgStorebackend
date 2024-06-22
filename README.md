@@ -2,11 +2,11 @@ steps to  run the server
 -> clone the repo
 -> run npm install 
 ->->create a .env file in the root folder which contains:
-    #<!-- infura id -->
+    #infura id
     INFURA_PROJECT_ID=00173c97e60d44ba80bdb4291ce2bf45
-    #<!-- private key for wallet you are using to deploy the contract -->
+    #private key for wallet you are using to deploy the contract
     PRIVATE_KEY=adc627587063d15a2ea7e979d3b85c7fea2a0b08c3c6737302c4d28fa8b30a80
-    #<!-- deployed contract address -->
+    #deployed contract address
     CONTRACT_ADDRESS=0x53A99B3ec7F86b2F5268CE9ff34445390E540AB7
 
 -> ```npm run  start:dev``` to start the server in development mode 
